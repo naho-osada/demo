@@ -3,7 +3,7 @@ $(function(){
     var countMax = Math.floor( Math.random() * 50);
 
     var canvas = $('#festival');
-    if($(window).width() < 800) {
+    if($(window).width() < 900) {
         $('#festival').width($(window).width()-50 + 'px');
     } else {
         $('#festival').width('900px');
