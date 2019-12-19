@@ -2,7 +2,7 @@ $(function() {
     // カラーの取得
     var Color = new setColor();
 
-    // レーダーグラフの生成個数を取得
+    // レーダーチャートの生成個数を取得
     var num = $('#radarNum').val();
     for(var rI=0; rI<num; rI++) {
         // データの取得
@@ -35,7 +35,7 @@ $(function() {
                 title: {
                     display: true,
                     fontSize: 16,
-                    text: ["レーダーグラフのサンプル（データセット" + cnt + "個)", "タイトルを改行するときは配列にするよ"]
+                    text: ["レーダーチャートのサンプル（データセット" + cnt + "個)", "タイトルを改行するときは配列にするよ"]
                 },
                 // 凡例の位置
                 legend: {
@@ -71,7 +71,7 @@ var setColor = function() {
 }
 
 /**
- * レーダーグラフの値の取得
+ * レーダーチャートの値の取得
  * getData
  *
  * @param i 何番目のデータを取ってくるのかを明示

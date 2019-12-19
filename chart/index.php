@@ -1,7 +1,7 @@
 <?php
     // 予めデータを加工する
 
-    // レーダーグラフを描画する
+    // レーダーチャートを描画する
     // パターン数
     $rNum = 5;
     $radarAry = [];
@@ -9,7 +9,7 @@
     // 各数
     $rCorner = 2;
     for($pI=1; $pI<=$rNum; $pI++) {
-        // レーダーグラフのデータ数
+        // レーダーチャートのデータ数
         $rCorner++;
         if($rCorner > 10) {
             $radarNum = mt_rand(3, 10);
@@ -64,13 +64,13 @@
     <script src="./js/chart-draw.js"></script>
 <?php
     // グラフ描画データを複数生成する
-    // レーダーグラフのデータ
+    // レーダーチャートのデータ
     foreach($radarAry as $key=>$data) {
 ?>
     <script type="application/json" id="radar-data<?php echo $key; ?>"><?php echo json_encode($data); ?></script>
 <?php
     }
-    // レーダーグラフの凡例
+    // レーダーチャートの凡例
     foreach($radarSAry as $key=>$data) {
 ?>
     <script type="application/json" id="radar-legend<?php echo $key; ?>"><?php echo json_encode($data); ?></script>
@@ -104,12 +104,12 @@
     <div class="container bg-info">
         <h1>Chart.jsサンプル</h1>
         <div class="container mt-3 pb-3 bg-light">
-            <h2 class="bg-primary p-3 text-white">レーダーグラフ</h2>
+            <h2 class="bg-primary p-3 text-white">レーダーチャート</h2>
             <p>最低3以上のデータが必要です。</p>
             <p>ページ更新でランダムな値のレーダーチャートを表示します。</p>
             <p class="text-danger">現状、Chart.jsでは凡例の改行はできません。但し、Chart.jsの本体を触れば不可能ではありません。<br>
             どうしてもやりたい場合は是非、チャレンジしてください。</p>
-            <input type="hidden" id="radarNum" value="<?php echo count($radarSAry); // レーダーグラフの生成数?>">
+            <input type="hidden" id="radarNum" value="<?php echo count($radarSAry); // レーダーチャートの生成数?>">
             <?php
                 $rCnt = 0;
                 $max = count($radarSAry);
