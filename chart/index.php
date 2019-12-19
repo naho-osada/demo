@@ -90,7 +90,10 @@
                 <a class="nav-link text-light" href="../index.html">demo Top</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="../dimple/index.html">グラフ描画（dimple）</a>
+                <a class="nav-link text-light" href="../dimple/index.html">dimple.js（グラフ）</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="../chart/">Chart.js（グラフ）</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-light" href="../canvas/index.html">Canvas Pop</a>
