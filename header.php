@@ -12,22 +12,25 @@
             <a class="nav-link text-light" href="<?php echo $path; ?>">demo Top</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="<?php echo $path; ?>/dimple/">dimple.js（グラフ）</a>
+            <a class="nav-link text-light" href="<?php echo $path; ?>/dimple/">dimple.js</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="<?php echo $path; ?>/chart/">Chart.js（グラフ）</a>
+            <a class="nav-link text-light" href="<?php echo $path; ?>/chart/">Chart.js</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-light" href="<?php echo $path; ?>/canvas/">Canvas Pop</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q01.php">for/foreach/whileクイズ01</a>
+            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q01.php">for/foreach/while 01</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q02.php">for/foreach/whileクイズ02</a>
+            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q02.php">for/foreach/while 02</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q03.php">for/foreach/whileクイズ03</a>
+            <a class="nav-link text-light" href="<?php echo $path; ?>/loop/q03.php">for/foreach/while 03</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="https://github.com/naho-osada/demo">GitHub</a>
         </li>
     </ul>
     </div>
