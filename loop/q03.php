@@ -21,7 +21,7 @@
             <h2 class="bg-primary p-2 text-white">第3問</h2>
             <p>配列30個分のランダム数字のデータを格納したあと、出力したい。for / foreach / whileのいずれを使うと最も適切か。</p>
             <h3 class="bg-primary p-2 text-white">解答</h3>
-            <p>for、又はforとforeach</p>
+            <p>for→foreach（for / whileも可）</p>
             <h3 class="bg-primary p-2 text-white">実行例</h3>
             <h4 class="bg-info p-1 text-white">foreachで出力</h4>
             <div class="container p-2">
