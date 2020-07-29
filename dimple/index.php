@@ -11,43 +11,7 @@
 	<script src="../js/bootstrap.min.js"></script>
 </head>
 <body class="bg-light">
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-		<a class="navbar-brand text-white" href="https://wm-web-se-pg.com/">HOME</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-				<a class="nav-link text-light" href="../index.html">demo Top</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="./index.html">グラフ描画（dimple）</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#circle-h2">円グラフ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#bar-h2">横棒グラフ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#bar-mixed-h2">複数の縦棒グラフ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#line-h2">折れ線グラフ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="#line-mixed-h2">複数の折れ線グラフ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="../chart/">Chart.js（グラフ）</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link text-light" href="../canvas/index.html">Canvas Pop</a>
-			</li>
-		</ul>
-		</div>
-	</nav>
+	<?php include(dirname(__DIR__) . "/header.php"); ?>
 	<div class="container">
 		<h1 class="bg-info text-white">dimple.jsをつかったグラフ描画デモ</h1>
 		<h2 class="bg-primary text-white" id="circle-h2">エンジニア婦人の一日の消費飲料</h2>

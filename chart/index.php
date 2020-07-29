@@ -79,28 +79,7 @@
 ?>
 </head>
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-white" href="https://wm-web-se-pg.com/">HOME</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link text-light" href="../index.html">demo Top</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="../dimple/index.html">dimple.js（グラフ）</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="../chart/">Chart.js（グラフ）</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="../canvas/index.html">Canvas Pop</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
+    <?php include(dirname(__DIR__) . "/header.php"); ?>
     <div class="container bg-info">
         <h1>Chart.jsサンプル</h1>
         <div class="container mt-3 pb-3 bg-light">

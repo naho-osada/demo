@@ -14,6 +14,7 @@
         <script src="../js/bootstrap.min.js"></script>
     </head>
     <body class="bg-light">
+    <?php include(dirname(__DIR__) . "/header.php"); ?>
     <div class="container bg-info p-3">
         <h1 class="bg-info text-white">ループ処理選択クイズ</h1>
         <div class="container mt-3 p-3 bg-light">
