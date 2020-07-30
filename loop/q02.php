@@ -40,20 +40,18 @@
             <h3 class="bg-primary p-2 text-white">実行例</h3>
             <div class="container p-2">
 <?php
-    if(!empty($data)) {
-        foreach($data as $key=>$ary) {
+    if(is_array($data)) {
+        foreach($data as $key=>$d) {
             echo '<div class="m-2"><p><strong>' . ($key +1) . '番目の配列' . '</strong></p></div>';
             echo '<div class="m-2 mb-4">';
-            foreach($ary as $key2=>$d) {
-                echo '<div class="p-1">';
-                if($key2 == 'name') {
-                    echo "お名前:";
-                } else if($key2 == 'user_id') {
-                    echo "ID:";
-                } else if($key2 == 'code') {
-                    echo "コード:";
-                }
-                echo $d . '</div>';
+            if(isset($d['name'])) {
+                echo '<div class="p-1">お名前:' . $d['name'] . '</div>';
+            }
+            if(isset($d['user_id'])) {
+                echo '<div class="p-1">ID:' . $d['user_id'] . '</div>';
+            }
+            if(isset($d['code'])) {
+                echo '<div class="p-1">コード:' . $d['code'] . '</div>';
             }
             echo '</div>';
         }

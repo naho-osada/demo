@@ -1,9 +1,9 @@
 <?php
     // whileサンプル確認
     $data = [];
-    $data[0] = mt_rand(0, 100);
-    $data[1] = mt_rand(0, 100);
-    while(($data[0] + $data[1]) % 2 != 0) {
+    $data[] = mt_rand(0, 100);
+    $data[] = mt_rand(0, 100);
+    while(($data[0] + $data[1]) % 2 !== 0) {
         $data = [];
         $data[] = mt_rand(0, 100);
         $data[] = mt_rand(0, 100);
@@ -15,7 +15,7 @@
         $data[] = mt_rand(0, 100);
         $data[] = mt_rand(0, 100);
         $cnt++;
-    } while(($data[0] + $data[1]) % 2 != 0);
+    } while(($data[0] + $data[1]) % 2 !== 0);
 ?>
 <html>
     <head>
