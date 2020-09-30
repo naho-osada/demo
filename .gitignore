@@ -1,0 +1,5 @@
+/puppeteer-makepdf/node_modules/*
+/puppeteer-makepdf/captcha/*
+/puppeteer-makepdf/crop/*
+/puppeteer-makepdf/recipe.js
+/puppeteer-makepdf/*.pdf

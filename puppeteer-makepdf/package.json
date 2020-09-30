@@ -1,0 +1,28 @@
+{
+  "name": "node-pdf",
+  "version": "1.0.0",
+  "description": "nodejsを使用した一括PDF生成機能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TechnoSystem",
+  "license": "ISC",
+  "dependencies": {
+    "array-foreach-async": "^1.0.1",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-each": "^0.5.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-spawn-mocha": "^6.0.0",
+    "html-minifier": "^4.0.0",
+    "image-size": "^0.9.1",
+    "jimp": "^0.16.1",
+    "make-dir": "^3.0.2",
+    "node-cron": "^2.0.3",
+    "pdfmake": "^0.1.65",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "webpack": "^4.42.0"
+  }
+}
